@@ -18,7 +18,7 @@ const Container = styled.div`
   margin: 5rem auto;
 `
 
-const Divider = styled.div`
+export const Divider = styled.div`
   width: 100%;
   height: 1px;
   background-color: #d9d9d9;
