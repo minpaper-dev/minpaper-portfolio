@@ -15,19 +15,27 @@ const Profile = () => {
             <Title>Contact.</Title>
             <Wrap>
               <SubTitle>📞 Phone</SubTitle>
-              <Content>010-5232-0210</Content>
+              <Linkto href="tel:010-5232-0210">
+                <Content>010-5232-0210</Content>
+              </Linkto>
             </Wrap>
             <Wrap>
               <SubTitle>📨 E-mail</SubTitle>
-              <Content>minpaper.dev@gmail.com</Content>
+              <Linkto href="mailto:minpaper.dev@gmail.com">
+                <Content>minpaper.dev@gmail.com</Content>
+              </Linkto>
             </Wrap>
             <Wrap>
               <SubTitle>🐱 Github</SubTitle>
-              <Content>https://github.com/minpaper-dev</Content>
+              <Linkto href="https://github.com/minpaper-dev">
+                <Content>https://github.com/minpaper-dev</Content>
+              </Linkto>
             </Wrap>
             <Wrap>
               <SubTitle>📝 Blog</SubTitle>
-              <Content>https://min-veloper.tistory.com/</Content>
+              <Linkto href="https://min-veloper.tistory.com/">
+                <Content>https://min-veloper.tistory.com/</Content>
+              </Linkto>
             </Wrap>
 
             <Title>Skill.</Title>
@@ -167,5 +175,7 @@ const Image = styled.img`
   margin-right: 0.5rem;
   border-radius: 1rem;
 `
-
+const Linkto = styled.a`
+  text-decoration: underline;
+`
 export default Profile
