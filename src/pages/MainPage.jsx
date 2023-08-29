@@ -2,6 +2,7 @@ import React from 'react'
 import { styled } from 'styled-components'
 import Profile from '../components/Profile'
 import Career from '../components/Career'
+import Project from '../components/Project'
 
 const MainPage = () => {
   return (
@@ -9,6 +10,7 @@ const MainPage = () => {
       <Profile />
       <Divider />
       <Career />
+      <Project />
     </Container>
   )
 }

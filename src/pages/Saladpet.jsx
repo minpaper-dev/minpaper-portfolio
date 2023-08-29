@@ -79,7 +79,7 @@ const Saladpet = () => {
         </FlexCol>
         <FlexCol>
           <Image src="data:image/png;base64,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" />
-          Figma
+          Slack
         </FlexCol>
         <FlexCol>
           <Image src="data:image/png;base64,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" />
@@ -87,6 +87,75 @@ const Saladpet = () => {
         </FlexCol>
       </FlexJustiBetween>
       <Divider />
+      <Title>1. 온보딩 & 회원가입 개편 (2022.02 ~ 03)</Title>
+      <Description>
+        {`- react hook form 라이브러리를 통한 유효성 검사 진행
+- 각 단계별로 컴포넌트를 분리하여 재사용 가능한 형태로 개발`}
+      </Description>
+      <Title>2. 샘플 스토어 런칭 (2022.04 ~ 07)</Title>
+      <Description>
+        {`- 아임포트(PortOne), 클레이풀(Clayful) API 연동
+- 장바구니, 결제, 취소, 환불 기능과 주문 상태에 따른 내역 확인 및 배송 조회 구현
+- 상품 목록에 대한 필터링 및 정렬 기능 구현
+- 상품 상세 페이지 스크롤 이벤트 활용 및 채널톡 API 연동
+- 기존 존재하던 상품의 리뷰와 현재 판매 중인 상품의 리뷰 통합
+- 전자상거래 이벤트 추적을 위한 Google Analytics(GA), Amplitude 연동`}
+      </Description>
+      <Title>3. 디자인 시스템 도입 (2022.08)</Title>
+      <Description>
+        {`- 재사용성과 일관성을 위해 디자인 시스템 적용
+- badge, banner, checkbox, color 등 17개의 요소 적용`}
+      </Description>
+      <Title>4. 컨텐츠 개편 (2022.09)</Title>
+      <Description>
+        {`- 저조한 접근율 개선을 위한 개편 작업 진행
+- 초기 개발 단계에 생성된 페이지에서 발생한 이벤트 설정 오류를 useFocusEffect를 활용하여 개선
+- 댓글 기능 추가
+`}
+      </Description>
+      <Title>5. 스토어 포인트 도입 (2022.10) </Title>
+      <Description>
+        {`- 기간에 따른 유효 포인트 노출
+- 사용자의 action을 통해 포인트 지급 가능하도록 구현
+- 포인트를 통한 결제가 가능하도록 결제 로직 수정
+`}
+      </Description>
+      <Title>6. 기획전 (2022.10)</Title>
+      <Description>
+        {`- Modal, BottomSheet, Carousel Component를 활용하여 기획전 및 상품 노출
+`}
+      </Description>
+      <Title>7. 본품 커머스 도입 (2022.11)</Title>
+      <Description>
+        {`- 커머스 메인 페이지 개편
+- 본품과 샘플 상품 연동 작업
+- 상품의 종류 세분화에 따른 유형별 상품 상세 페이지 분리 작업
+`}
+      </Description>
+      <Title>8. 알림함 (2022.12)</Title>
+      <Description>
+        {`- AppState, firebase-massaging을 통한 APP PUSH 제어
+`}
+      </Description>
+      <Title>9. 큐레이션 (2022.12)</Title>
+      <Description>
+        {`- Animated를 이용한 fade 애니메이션 구현
+- 사용자의 응답에 따른 상품 추천 및 할인 적용
+`}
+      </Description>
+      <Title>10. 쿠폰, 등급제 (2023.01)</Title>
+      <Description>
+        {`- 기간 및 사용 여부에 따른 유효 쿠폰 노출
+- 사용자의 action을 통해 쿠폰 지급 가능하도록 구현
+- 쿠폰을 통한 결제가 가능하도록 결제 로직 수정
+`}
+      </Description>
+      <Title>11. 기부 캠페인 (2023.02)</Title>
+      <Description>
+        {`- ViewShot을 통해 Custom Image 생성 후 이미지 저장 기능 구현
+- 카카오톡 공유 및 Instagram Story 공유 기능 구현
+`}
+      </Description>
     </Container>
   )
 }
@@ -94,7 +163,7 @@ const Saladpet = () => {
 const Container = styled.div`
   display: flex;
   flex-direction: column;
-  margin: 3rem 0 0;
+  margin: 3rem 0 10rem;
 `
 
 const Name = styled.div`
@@ -117,6 +186,14 @@ const SubTitle = styled.h3`
   font-size: 1.4rem;
   font-weight: 600;
   width: 8rem;
+`
+
+const Description = styled.span`
+  font-size: 1.4rem;
+  font-weight: 600;
+  line-height: 2;
+  color: #333333;
+  white-space: pre-wrap;
 `
 
 const Flex = styled.div`

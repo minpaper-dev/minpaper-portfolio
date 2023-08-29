@@ -1,62 +1,68 @@
 import { Link } from 'react-router-dom'
 import { styled } from 'styled-components'
 
-const Career = () => {
+const Project = () => {
   return (
     <Container>
       <Name>
-        <NameText>Career</NameText>
+        <NameText>Project</NameText>
       </Name>
-      <Link to={'/saladpet'}>
+      <Link to={'/scentsation'}>
         <Flex>
-          <Title>(주) 라이노박스 - 샐러드펫</Title>
+          <Title>ScentSation</Title>
           <Detail>자세히 보기</Detail>
         </Flex>
       </Link>
       <FlexJustiBetween>
-        <Image src="https://play-lh.googleusercontent.com/EMjeQeKUGAR0G7nsPyguGV_QOvdLGq6XMx7gI80DJta31soC0ONRCgFuURbTZ9qWx2s=w1052-h592-rw" />
-        <Image src="https://play-lh.googleusercontent.com/2SCGSYziz_8-YUy1mLZEz0vlJduPV-WHaO5f5SVNBLb3R-PVjI3T0qy23nhduBzli4CS=w1052-h592-rw" />
-        <Image src="https://play-lh.googleusercontent.com/E7u6ivQdRHH8EQ-2N5pg4jlPAhSnQSXne-q7rOPLnup3kWAseGp2TLIg_sbC4UOwCnc=w1052-h592-rw" />
+        <Image src="https://user-images.githubusercontent.com/137516352/263533101-f4a1f21b-96ee-40ad-a3d1-37f7ce953d8b.jpeg" />
+        <Image src="https://user-images.githubusercontent.com/137516352/263533374-f244c1f3-5992-4112-baa8-650f332d7f78.jpeg" />
+        <Image src="https://user-images.githubusercontent.com/137516352/263533438-53d306f6-e5ba-4c32-9d93-ec085e34df1d.jpeg" />
       </FlexJustiBetween>
 
       <Table>
         <Tr>
           <ContentTd>period</ContentTd>
-          <Td>2022.02 - 2023.03 (1년 2개월)</Td>
+          <Td>2023.08.01 - 2023.08.27 (약 1개월)</Td>
         </Tr>
         <Tr>
-          <ContentTd>position</ContentTd>
-          <Td>FE Developer</Td>
+          <ContentTd>Personal / Team</ContentTd>
+          <Td>Personal</Td>
         </Tr>
         <Tr>
-          <ContentTd>projects</ContentTd>
-          <Td>온보딩 및 회원가입 / 스토어 런칭 / 큐레이션 </Td>
+          <ContentTd>features</ContentTd>
+          <Td>
+            Google로 로그인 / Firebase 및 FireStore 연동 / 투표 등 커뮤니티 /
+            검색 및 필터링
+          </Td>
         </Tr>
         <Tr>
           <ContentTd>tech</ContentTd>
           <Td>
-            React-Native, Code-Push, Redux, styled-component, Github, GA,
-            Amplitude, Figma
+            JavaScript, React, Recoil, React Query, styled-component, Firebase,
+            Github, Figma, Notion
           </Td>
         </Tr>
       </Table>
 
       <Link to={'/everycharge'}>
         <Flex>
-          <Title>(주) 스칼라데이터 - 모두의 충전</Title>
+          <Title>Vue Shop</Title>
           <Detail>자세히 보기</Detail>
         </Flex>
       </Link>
 
       <FlexJustiBetween>
-        <Image src="https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/25/18/7a/25187ab2-e1e7-af48-d1e6-aa1995c64fa6/ef7a74c4-7a8b-48f5-8080-9b8cc9735d53_01.png/460x0w.webp" />
-        <Image src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/01/50/3e/01503e0b-67a0-8aed-41e6-d037a04e3029/c0a8cc1a-519c-48a2-a6d6-9b09772d024e_ios_6.5_U110b_U1175_U11ab_U110e_U117502.png/460x0w.webp" />
-        <Image src="https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/90/a5/34/90a5349e-fa70-236c-b506-47989e6cf00b/58f33820-ebd6-42cf-a66c-e97e9eedd19c_ios_6.5_U1112_U1167_U11bc_3.png/460x0w.webp" />
+        <WebImage src="https://github.com/minpaper-dev/vue-shop/assets/137516352/bb71a5dd-68a0-4d45-b4d8-f804dea89a38" />
+        <WebImage src="https://github.com/minpaper-dev/vue-shop/assets/137516352/fc6bafbb-8590-4a7e-8735-b8bcf7e49277" />
+      </FlexJustiBetween>
+      <FlexJustiBetween>
+        <WebImage src="https://github.com/minpaper-dev/vue-shop/assets/137516352/ccc1bb46-f0a2-497a-b41d-41d71fef2979" />
+        <WebImage src="https://github.com/minpaper-dev/vue-shop/assets/137516352/7e7e1d71-5d5f-41eb-9859-7bab67aa6c47" />
       </FlexJustiBetween>
       <Table>
         <Tr>
           <ContentTd>period</ContentTd>
-          <Td>2021.07 - 2021.12 (6개월)</Td>
+          <Td>2023.07.04 - 2023.07.19 (약 2주)</Td>
         </Tr>
         <Tr>
           <ContentTd>position</ContentTd>
@@ -65,14 +71,13 @@ const Career = () => {
         <Tr>
           <ContentTd>projects</ContentTd>
           <Td>
-            로그인 및 마이페이지 / 대리 충전 런칭 / 현대 Developer API 연동
+            {' '}
+            테마 변경(다크 모드 / 라이트 모드) / Carousel / Fake API 연동
           </Td>
         </Tr>
         <Tr>
           <ContentTd>tech</ContentTd>
-          <Td>
-            React-Native, Code-Push, Recoil, styled-component, Github, Figma
-          </Td>
+          <Td>TypeScript, React, Recoil, React Query, tailwind, Github</Td>
         </Tr>
       </Table>
     </Container>
@@ -147,4 +152,10 @@ const Image = styled.img`
   border: 1px solid #eaeaea;
 `
 
-export default Career
+const WebImage = styled.img`
+  width: 50%;
+  border-radius: 1rem;
+  border: 1px solid #eaeaea;
+`
+
+export default Project
