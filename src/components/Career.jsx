@@ -71,7 +71,7 @@ const Career = () => {
         <Tr>
           <ContentTd>tech</ContentTd>
           <Td>
-            React-Native, Code-Push, Recoil, styled-component, Github, Figma
+            React-Native, Code-Push, Redux, styled-component, Github, Figma
           </Td>
         </Tr>
       </Table>

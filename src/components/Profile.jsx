@@ -74,15 +74,38 @@ const Profile = () => {
 
 저는 약 1년 8개월동안 스타트업에서 React-Native로 프론트엔드 개발을 담당하였으며 백엔드 개발자, 디자이너, PM 등 다양한 분야의 동료분들과 협업한 경험이 있습니다.
 `}
-          <Title>🙋🏻‍♀️ 저는 이런 사람입니다.</Title>
-          {`1️⃣ 주변 사람들에게 긍정적 영향을 주는 일이 동기부여가 돼요.
-2️⃣ 해결이 어려운 문제에 대한 집념이 있어요.
-3️⃣ 서비스의 가치를 이해하고 개발하며 가치를 높이기 위해 노력해요.
-4️⃣ 문제가 생기면 책임을 따지기보다 그 상황 안에서 할 수 있는 방안을 찾아요.
-5️⃣ 목표 달성도 중요하지만 만들어나가는 과정에서 재미와 보람을 느껴요.
-6️⃣ 새로 알게된 것은 기록하고 지나간 것은 회고해요.
-7️⃣ 미스 커뮤니케이션을 줄이기 위해 더블체크하려고 노력해요.
-8️⃣ 디자인 시안을 꼼꼼하게 확인하여 오차 없이 개발하는 것을 좋아해요.
+          {/* <FlexColumn>
+            <Title>저는 </Title>
+            <SubText $bgc={'#FFAF1933'}>함께 할 때 더 빛나는,</SubText>
+            <SubText $bgc={'#0096041A'}>
+              새로움에 도전하며 즐겁게 노력하는,
+            </SubText>
+            <SubText $bgc={'#1A4BFF1A'}>
+              사람들에게 가치를 줄 수 있는 코드를 만드는 사람입니다.
+            </SubText>
+          </FlexColumn> */}
+          <Title>🛠️ My Tech Skills are ...</Title>
+          <Code>Javascript</Code>
+          <Code>TypeScript</Code>
+          <Code>React</Code>
+          <Code>React Native</Code>를 활용해 프론트엔드 개발을 하고 있습니다.
+          {`
+
+✔️ Semantic Markup을 통해 웹 표준을 지키려고 노력합니다.
+✔️ 반응형 웹을 고려한 UI를 개발할 수 있습니다.
+✔️ ECMAScript6 문법에 익숙합니다.
+✔️ Webpack과 같은 Module Bundler를 사용할 수 있습니다.
+          `}
+          <Title>✨ My Soft Skills are ...</Title>
+          {`
+✔️ 주변 사람들에게 긍정적 영향을 주는 일이 동기부여가 돼요.
+✔️ 해결이 어려운 문제에 대한 집념이 있어요.
+✔️ 서비스의 가치를 이해하고 개발하며 가치를 높이기 위해 노력해요.
+✔️ 문제가 생기면 책임을 따지기보다 그 상황 안에서 할 수 있는 방안을 찾아요.
+✔️ 목표 달성도 중요하지만 만들어나가는 과정에서 재미와 보람을 느껴요.
+✔️ 새로 알게된 것은 기록하고 지나간 것은 회고해요.
+✔️ 미스 커뮤니케이션을 줄이기 위해 더블체크하려고 노력해요.
+✔️ 디자인 시안을 꼼꼼하게 확인하여 오차 없이 개발하는 것을 좋아해요.
           `}
           <Link to={'/review'}>
             <Title>🤔 같이 일한 동료들은 저를 이렇게 생각해요. (Click)</Title>
@@ -178,4 +201,28 @@ const Image = styled.img`
 const Linkto = styled.a`
   text-decoration: underline;
 `
+
+const Code = styled.code`
+  background-color: #f0f0f0;
+  color: #5b5f66;
+  border-radius: 6px;
+  padding: 0.2rem 0.4rem;
+  font-weight: 500;
+  font-size: 1.2rem;
+  margin-right: 0.5rem;
+  font-family: 'IBM Plex Sans KR', sans-serif;
+`
+
+// const SubText = styled.span`
+//   margin-left: 1rem;
+//   font-size: 1.5rem;
+//   font-weight: 700;
+//   background-color: ${props => props.$bgc};
+// `
+
+// const FlexColumn = styled.div`
+//   display: flex;
+//   flex-direction: column;
+// `
+
 export default Profile

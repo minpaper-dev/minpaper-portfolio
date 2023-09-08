@@ -38,19 +38,18 @@ const Project = () => {
         <Tr>
           <ContentTd>tech</ContentTd>
           <Td>
-            JavaScript, React, Recoil, React Query, styled-component, Firebase,
+            TypeScript, React, Recoil, React Query, styled-component, Firebase,
             Github, Figma, Notion
           </Td>
         </Tr>
       </Table>
 
-      <Link to={'/everycharge'}>
+      <Link to={'/vueshop'}>
         <Flex>
           <Title>Vue Shop</Title>
           <Detail>자세히 보기</Detail>
         </Flex>
       </Link>
-
       <FlexJustiBetween>
         <WebImage src="https://github.com/minpaper-dev/vue-shop/assets/137516352/bb71a5dd-68a0-4d45-b4d8-f804dea89a38" />
         <WebImage src="https://github.com/minpaper-dev/vue-shop/assets/137516352/fc6bafbb-8590-4a7e-8735-b8bcf7e49277" />
@@ -65,15 +64,45 @@ const Project = () => {
           <Td>2023.07.04 - 2023.07.19 (약 2주)</Td>
         </Tr>
         <Tr>
-          <ContentTd>position</ContentTd>
-          <Td>FE Developer</Td>
+          <ContentTd>Personal / Team</ContentTd>
+          <Td>Personal</Td>
         </Tr>
         <Tr>
           <ContentTd>projects</ContentTd>
-          <Td>
-            {' '}
-            테마 변경(다크 모드 / 라이트 모드) / Carousel / Fake API 연동
-          </Td>
+          <Td>테마 변경(다크 모드 / 라이트 모드) / Carousel / Fake API 연동</Td>
+        </Tr>
+        <Tr>
+          <ContentTd>tech</ContentTd>
+          <Td>TypeScript, React, Recoil, React Query, tailwind, Github</Td>
+        </Tr>
+      </Table>
+
+      <Link to={'/everycharge'}>
+        <Flex>
+          <Title>Lodics Web Refactoring</Title>
+          <Detail>자세히 보기</Detail>
+        </Flex>
+      </Link>
+      <FlexJustiBetween>
+        <WebImage src="https://github.com/minpaper-dev/vue-shop/assets/137516352/8de86eab-0bf9-42c2-9148-59a8769b075f" />
+        <WebImage src="https://github.com/minpaper-dev/vue-shop/assets/137516352/c6ece8cb-7529-4fc3-a3b1-d36050a65d11" />
+      </FlexJustiBetween>
+      <FlexJustiBetween>
+        <WebImage src="https://github.com/minpaper-dev/vue-shop/assets/137516352/eabb5428-ae28-405e-859b-ef4a9dd64411" />
+        <WebImage src="https://github.com/minpaper-dev/vue-shop/assets/137516352/60850a21-0170-4244-889f-23f38efa71b3" />
+      </FlexJustiBetween>
+      <Table>
+        <Tr>
+          <ContentTd>period</ContentTd>
+          <Td>2021.12.28 - 2022.01.28 (약 1개월)</Td>
+        </Tr>
+        <Tr>
+          <ContentTd>Personal / Team</ContentTd>
+          <Td>Team (FE : 2)</Td>
+        </Tr>
+        <Tr>
+          <ContentTd>projects</ContentTd>
+          <Td>테마 변경(다크 모드 / 라이트 모드) / Carousel / Fake API 연동</Td>
         </Tr>
         <Tr>
           <ContentTd>tech</ContentTd>

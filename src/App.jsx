@@ -5,6 +5,7 @@ import ReviewPage from './pages/ReviewPage'
 import Saladpet from './pages/Saladpet'
 import EveryCharge from './pages/EveryCharge'
 import ScentSation from './pages/ScentSation'
+import VueShop from './pages/VueShop'
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route path="/saladpet" element={<Saladpet />} />
           <Route path="/everycharge" element={<EveryCharge />} />
           <Route path="/scentsation" element={<ScentSation />} />
+          <Route path="/vueshop" element={<VueShop />} />
         </Routes>
       </BrowserRouter>
     </Container>
