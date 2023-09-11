@@ -6,12 +6,13 @@ import Saladpet from './pages/Saladpet'
 import EveryCharge from './pages/EveryCharge'
 import ScentSation from './pages/ScentSation'
 import VueShop from './pages/VueShop'
+import { ScrollToTop } from './components/ScrollToTop'
 
 function App() {
   return (
     <Container className="App">
       <BrowserRouter>
-        {/* <ScrollToTop /> */}
+        <ScrollToTop />
         <Routes>
           <Route path="/" element={<MainPage />} />
           <Route path="/review" element={<ReviewPage />} />

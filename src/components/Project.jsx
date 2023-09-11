@@ -80,7 +80,6 @@ const Project = () => {
       <Link to={'/everycharge'}>
         <Flex>
           <Title>Lodics Web Refactoring</Title>
-          <Detail>자세히 보기</Detail>
         </Flex>
       </Link>
       <FlexJustiBetween>
@@ -102,11 +101,11 @@ const Project = () => {
         </Tr>
         <Tr>
           <ContentTd>projects</ContentTd>
-          <Td>테마 변경(다크 모드 / 라이트 모드) / Carousel / Fake API 연동</Td>
+          <Td>언어 변경(한국어 / English) / useContext </Td>
         </Tr>
         <Tr>
           <ContentTd>tech</ContentTd>
-          <Td>TypeScript, React, Recoil, React Query, tailwind, Github</Td>
+          <Td>JavaScript, React, Next.js, styled-component, Github</Td>
         </Tr>
       </Table>
     </Container>
