@@ -7,8 +7,7 @@ const ReviewPage = () => {
       <Text>
         🗣️ 재직 당시 진행하였던 익명 동료 리뷰를 가감없이 첨부하였습니다.
       </Text>
-      {/* <Image src={review} /> */}
-      <Image src="https://github.com/minpaper-dev/vue-shop/assets/137516352/f2d17b3d-677a-4150-9b52-1f9d0be3f994" />
+      <Image src={review} />
     </>
   )
 }
