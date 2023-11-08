@@ -7,6 +7,41 @@ const Project = () => {
       <Name>
         <NameText>Project</NameText>
       </Name>
+
+      <Link to={'/foodlier'}>
+        <Flex>
+          <Title>Foodlier</Title>
+          <Detail>자세히 보기</Detail>
+        </Flex>
+      </Link>
+      <FlexJustiBetween>
+        <Image src="https://github.com/minpaper-dev/minpaper-portfolio/assets/137516352/f05b1a3a-9653-41f3-abae-0a7bc12616ca" />
+        <Image src="https://github.com/minpaper-dev/minpaper-portfolio/assets/137516352/3279d99f-2452-4115-9cd4-9b423c176f99" />
+        <Image src="https://github.com/minpaper-dev/minpaper-portfolio/assets/137516352/5c0db9bc-4462-4f0b-a060-7119fea9ea25" />
+      </FlexJustiBetween>
+
+      <Table>
+        <Tr>
+          <ContentTd>period</ContentTd>
+          <Td>2023.09.07 - 2023.10.26 (약 2개월)</Td>
+        </Tr>
+        <Tr>
+          <ContentTd>Personal / Team</ContentTd>
+          <Td>Team</Td>
+        </Tr>
+        <Tr>
+          <ContentTd>features</ContentTd>
+          <Td></Td>
+        </Tr>
+        <Tr>
+          <ContentTd>tech</ContentTd>
+          <Td>
+            TypeScript, React, Recoil, styled-component, axios, MSW, StompJS,
+            sockJS, WebSocket, SSE, Github, Figma, Notion
+          </Td>
+        </Tr>
+      </Table>
+
       <Link to={'/scentsation'}>
         <Flex>
           <Title>ScentSation</Title>
