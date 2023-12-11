@@ -33,7 +33,7 @@ const VueShop = () => {
 
       <Link
         href="https://vue-shop-py7p01lec-minpaper-dev.vercel.app/"
-        //    target="_blank"
+        target="_blank"
       >
         <Title>🔗 사이트 바로가기 </Title>
         <Flex>
@@ -43,10 +43,7 @@ const VueShop = () => {
         </Flex>
       </Link>
 
-      <Link
-        href="https://github.com/minpaper-dev/vue-shop"
-        //    target="_blank"
-      >
+      <Link href="https://github.com/minpaper-dev/vue-shop" target="_blank">
         <TitleText>🐱 Github </TitleText>
         <Flex>
           <SubTitle>https://github.com/minpaper-dev/vue-shop</SubTitle>

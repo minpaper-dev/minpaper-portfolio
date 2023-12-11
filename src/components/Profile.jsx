@@ -27,13 +27,13 @@ const Profile = () => {
             </Wrap>
             <Wrap>
               <SubTitle>🐱 Github</SubTitle>
-              <Linkto href="https://github.com/minpaper-dev">
+              <Linkto href="https://github.com/minpaper-dev" target="_blank">
                 <Content>https://github.com/minpaper-dev</Content>
               </Linkto>
             </Wrap>
             <Wrap>
               <SubTitle>📝 Blog</SubTitle>
-              <Linkto href="https://min-veloper.tistory.com/">
+              <Linkto href="https://min-veloper.tistory.com/" target="_blank">
                 <Content>https://min-veloper.tistory.com/</Content>
               </Linkto>
             </Wrap>

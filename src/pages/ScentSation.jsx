@@ -37,13 +37,16 @@ const ScentSation = () => {
         </Tr>
       </Table>
 
-      <Link href="https://scentsation.vercel.app/">
+      <Link href="https://scentsation.vercel.app/" target="_blank">
         <Title>🔗 사이트 바로가기 </Title>
         <Flex>
           <SubTitle>https://scentsation.vercel.app/</SubTitle>
         </Flex>
       </Link>
-      <Link href="https://www.veed.io/view/f46a1cee-5fd7-4e03-89be-3c95c33cf76e?panel=share">
+      <Link
+        href="https://www.veed.io/view/f46a1cee-5fd7-4e03-89be-3c95c33cf76e?panel=share"
+        target="_blank"
+      >
         <TitleText>📺 시연 영상 </TitleText>
         <Flex>
           <SubTitle>
@@ -51,7 +54,7 @@ const ScentSation = () => {
           </SubTitle>
         </Flex>
       </Link>
-      <Link href="https://github.com/minpaper-dev/ScentSation">
+      <Link href="https://github.com/minpaper-dev/ScentSation" target="_blank">
         <TitleText>🐱 Github </TitleText>
         <Flex>
           <SubTitle>https://github.com/minpaper-dev/ScentSation</SubTitle>

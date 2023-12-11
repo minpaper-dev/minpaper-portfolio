@@ -12,13 +12,13 @@ const EveryCharge = () => {
       <Flex>
         <Link
           href="https://apps.apple.com/kr/app/%EB%AA%A8%EB%91%90%EC%9D%98%EC%B6%A9%EC%A0%84-%EC%A0%84%EA%B8%B0%EC%B0%A8-%ED%95%84%EC%88%98%EC%95%B1/id1565921202"
-          //    target="_blank"
+          target="_blank"
         >
           <SubTitle>🍎 iOS</SubTitle>
         </Link>
         <Link
           href="https://play.google.com/store/apps/details?id=org.ScalarData.EveryCharge&hl=ko&gl=US"
-          // target="_blank"
+          target="_blank"
         >
           <SubTitle>🤖 Android</SubTitle>
         </Link>

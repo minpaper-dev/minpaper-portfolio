@@ -37,13 +37,16 @@ const Foodlier = () => {
         </Tr>
       </Table>
 
-      <Link href="https://zb-foodlier-iota.vercel.app/">
+      <Link href="https://zb-foodlier-iota.vercel.app/" target="_blank">
         <Title>🔗 사이트 바로가기 </Title>
         <Flex>
           <SubTitle>https://zb-foodlier-iota.vercel.app/</SubTitle>
         </Flex>
       </Link>
-      <Link href="https://www.notion.so/Demo-Foodlier-836868d5f8a64a76abecf9deae597e5e">
+      <Link
+        href="https://www.notion.so/Demo-Foodlier-836868d5f8a64a76abecf9deae597e5e"
+        target="_blank"
+      >
         <TitleText>📃 Notion </TitleText>
         <Flex>
           <SubTitle>
@@ -51,7 +54,7 @@ const Foodlier = () => {
           </SubTitle>
         </Flex>
       </Link>
-      <Link href="https://github.com/Foodlier">
+      <Link href="https://github.com/Foodlier" target="_blank">
         <TitleText>🐱 Github </TitleText>
         <Flex>
           <SubTitle>https://github.com/Foodlier</SubTitle>

@@ -12,13 +12,13 @@ const Saladpet = () => {
       <Flex>
         <Link
           href="https://apps.apple.com/kr/app/%EC%83%90%EB%9F%AC%EB%93%9C%ED%8E%AB-%EC%82%AC%EB%A3%8C-%EC%84%A0%ED%83%9D%EB%B6%80%ED%84%B0-%EC%98%81%EC%96%91%EA%B4%80%EB%A6%AC%EA%B9%8C%EC%A7%80-%ED%95%9C%EB%B2%88%EC%97%90/id1547258160"
-          //    target="_blank"
+          target="_blank"
         >
           <SubTitle>🍎 iOS</SubTitle>
         </Link>
         <Link
           href="https://play.google.com/store/apps/details?id=com.saladpet.app&hl=ko&gl=US"
-          // target="_blank"
+          target="_blank"
         >
           <SubTitle>🤖 Android</SubTitle>
         </Link>
