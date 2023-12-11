@@ -23,7 +23,10 @@ const Foodlier = () => {
         </Tr>
         <Tr>
           <ContentTd>features</ContentTd>
-          <Td></Td>
+          <Td>
+            토큰 기반의 로그인 및 회원가입 / Kakao map API 연동 / 실시간 알림
+            -SSE / 1:1 채팅 - SockJS / 게시물 검색 및 CRUD
+          </Td>
         </Tr>
         <Tr>
           <ContentTd>tech</ContentTd>
@@ -34,11 +37,22 @@ const Foodlier = () => {
         </Tr>
       </Table>
 
-      <Link
-        href="https://github.com/Foodlier"
-        //    target="_blank"
-      >
-        <Title>🐱 Github </Title>
+      <Link href="https://zb-foodlier-iota.vercel.app/">
+        <Title>🔗 사이트 바로가기 </Title>
+        <Flex>
+          <SubTitle>https://zb-foodlier-iota.vercel.app/</SubTitle>
+        </Flex>
+      </Link>
+      <Link href="https://www.notion.so/Demo-Foodlier-836868d5f8a64a76abecf9deae597e5e">
+        <TitleText>📃 Notion </TitleText>
+        <Flex>
+          <SubTitle>
+            https://www.notion.so/Demo-Foodlier-836868d5f8a64a76abecf9deae597e5e
+          </SubTitle>
+        </Flex>
+      </Link>
+      <Link href="https://github.com/Foodlier">
+        <TitleText>🐱 Github </TitleText>
         <Flex>
           <SubTitle>https://github.com/Foodlier</SubTitle>
         </Flex>
@@ -94,14 +108,16 @@ const Foodlier = () => {
 
       <Title>1. 로그인, 회원가입 </Title>
       <Description>{`- 자체 로그인, 네이버, 카카오 로그인 연동
-- JWT Token`}</Description>
+- JWT Access Token 기반의 Token 관리`}</Description>
       <FlexAlignCenter>
         <ProjectImage src="https://github.com/minpaper-dev/minpaper-portfolio/assets/137516352/1fffb0ca-1d1c-4baa-b7df-59ba5bf6e6b5" />
         <ProjectImage src="https://github.com/minpaper-dev/minpaper-portfolio/assets/137516352/f05b1a3a-9653-41f3-abae-0a7bc12616ca" />
       </FlexAlignCenter>
 
       <Title>2. 냉장고를 부탁해</Title>
-      <Description>{`- LocalStorage를 이용한 검색어 저장 기능`}</Description>
+      <Description>{`- Kakao map API 연동을 통한 반경 1km 이내의 요리사 조회`}</Description>
+      <Description>{`- 유효성 검사를 통한 견적서, 요청서 CRUD`}</Description>
+      <Description>{`- 각 요청 완료 시 EventSourcePolyfill를 이용한 SSE 알림 노출`}</Description>
       <FlexAlignCenter>
         <ProjectImage src="https://github.com/minpaper-dev/minpaper-portfolio/assets/137516352/5c0db9bc-4462-4f0b-a060-7119fea9ea25" />
         <ProjectImage src="https://github.com/minpaper-dev/minpaper-portfolio/assets/137516352/e671f127-f25c-4e84-bc83-c8114dcd94d0" />
@@ -109,9 +125,9 @@ const Foodlier = () => {
       </FlexAlignCenter>
 
       <Title>3. 채팅 및 결제</Title>
-      <Description>{`- 상품의 리뷰 데이터 가공 후 그래프 처리
-- 리뷰 작성 및 수정 시 유효성 검사
-- 비회원인 경우 로그인 화면으로 이동`}</Description>
+      <Description>{`- Intersection Observer API를 통한 무한스크롤 구현
+- SockJS를 사용하여 웹소켓을 지원하지 않는 브라우저에서도 웹소켓의 대안으로 Streaming, Long Polling 연결을 사용하여 실시간성 제공
+`}</Description>
       <FlexAlignCenter>
         <ProjectImage src="https://github.com/minpaper-dev/minpaper-portfolio/assets/137516352/3279d99f-2452-4115-9cd4-9b423c176f99" />
         <ProjectImage src="https://github.com/minpaper-dev/minpaper-portfolio/assets/137516352/3bcb4368-58c6-4c3b-b77d-cecbfedab251" />
@@ -119,9 +135,9 @@ const Foodlier = () => {
       </FlexAlignCenter>
 
       <Title>4. 게시글 검색 및 관리</Title>
-      <Description>{`- 투표 결과 애니메이션을 통한 노출
-- 유효성 검사
-- 비회원인 경우 로그인 화면으로 이동 `}</Description>
+      <Description>{`- Custom Select Form을 이용하여 제목, 재료, 작성자 카테고리를 설정 및 정렬 기능 구현
+- 유효성 검사를 통한 게시글, 댓글 CRUD
+`}</Description>
       <FlexAlignCenter>
         <ProjectImage src="https://github.com/minpaper-dev/minpaper-portfolio/assets/137516352/762a8a44-18be-4e3f-b48d-ac024633cd1e" />
         <ProjectImage src="https://github.com/minpaper-dev/minpaper-portfolio/assets/137516352/8d43ca6d-58b0-49bd-a120-36e2687d70ee" />
@@ -152,6 +168,12 @@ const Title = styled.h2`
   font-size: 1.8rem;
   font-weight: 700;
   margin: 3rem 0 1rem;
+`
+
+const TitleText = styled.h2`
+  color: black;
+  font-size: 1.8rem;
+  font-weight: 700;
 `
 
 const SubTitle = styled.h3`

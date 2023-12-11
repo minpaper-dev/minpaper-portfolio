@@ -31,7 +31,10 @@ const Project = () => {
         </Tr>
         <Tr>
           <ContentTd>features</ContentTd>
-          <Td></Td>
+          <Td>
+            토큰 기반의 로그인 및 회원가입 / Kakao map API 연동 / 실시간 알림
+            -SSE / 1:1 채팅 - SockJS / 게시물 검색 및 CRUD
+          </Td>
         </Tr>
         <Tr>
           <ContentTd>tech</ContentTd>
@@ -112,11 +115,9 @@ const Project = () => {
         </Tr>
       </Table>
 
-      <Link to={'/everycharge'}>
-        <Flex>
-          <Title>Lodics Web Refactoring</Title>
-        </Flex>
-      </Link>
+      <Flex>
+        <Title>Lodics Web Refactoring</Title>
+      </Flex>
       <FlexJustiBetween>
         <WebImage src="https://github.com/minpaper-dev/vue-shop/assets/137516352/8de86eab-0bf9-42c2-9148-59a8769b075f" />
         <WebImage src="https://github.com/minpaper-dev/vue-shop/assets/137516352/c6ece8cb-7529-4fc3-a3b1-d36050a65d11" />
